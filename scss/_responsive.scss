@@ -1,0 +1,74 @@
+/* Use this file to override main responsive rules or to add rules for proprietary site elements */
+
+/*
+	Tablet Layout: 768px.
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#page{
+		width:100%;
+		padding:0;
+	}
+	#page > header, #main {
+		margin: 20px auto 0;
+		padding:10px;
+		width:748px;
+	}
+	
+	#page > header .main-nav li a {
+		font-size:11px;
+	}
+	
+	#page > header .main-nav li.home-link a {font-size:0;}
+}
+
+
+
+/*
+	Mobile Layout: 320px.
+*/
+
+@media only screen and (max-width: 767px) {
+
+	/* Mods from SiteKit to accommodate full width footer */
+	#page{
+		width:100%;
+		padding:0;
+	}
+	#page > header, #main {
+		margin: 20px auto 0;
+		padding:10px;
+		width:300px;
+	}
+	/* nav  */
+	#page > header .main-nav {padding-top:50px;text-align:left;}
+	#page > header .main-nav li.subnav-toggle {margin-top:-52px;}
+	#page > footer .main-nav li.subnav-toggle {margin-top:-4px;}
+	
+	#page > header .main-nav li a {
+		font-size:14px;
+	}
+	#page > header .main-nav li.subnav-toggle b a,#page > footer .main-nav li.subnav-toggle b a {font-size:0;}
+	
+	#page > header .main-nav li.home-link a {position:absolute; top:64px;font-size:0;}
+	
+
+	/*footer  */
+	#page > footer .main-nav .home-link a {margin:0;}
+	#page > footer .main-nav {}
+	#page > footer #aol-follow ul {margin-top:0;}
+	#page > footer #aol-footer-links li {border-right: none;}
+	
+}
+
+
+
+/*
+	Wide Mobile Layout: 480px.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#page > header, #main {
+		width:460px;
+	}
+}
