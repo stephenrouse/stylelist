@@ -1,0 +1,135 @@
+.jcarousel-skin-nineup .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-nineup .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-nineup .jcarousel-clip-horizontal {
+    width:  482px;
+    height: 584px;
+	margin: 0 auto;
+}
+
+
+.jcarousel-skin-nineup .jcarousel-item {
+    width: 482px;
+    height: 584px;
+}
+
+.jcarousel-skin-nineup .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+}
+
+.jcarousel-skin-nineup .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-nineup .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-nineup .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-nineup .jcarousel-next-horizontal {
+    position: absolute;
+    top: 243px;
+    width: 36px;
+    height: 44px;
+    cursor: pointer;
+    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat -38px -312px;
+	left: 567px;
+}
+
+.jcarousel-skin-nineup .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png");
+}
+
+.jcarousel-skin-nineup .jcarousel-next-horizontal:hover,
+.jcarousel-skin-nineup .jcarousel-next-horizontal:focus {
+    background-position: -38px -360px;
+}
+
+.jcarousel-skin-nineup .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-nineup .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-nineup .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-nineup .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-nineup .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-skin-nineup .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 243px;
+	left: 10px;
+    width: 36px;
+    height: 44px;
+    cursor: pointer;
+    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -312px;
+}
+
+.jcarousel-skin-nineup .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+
+.jcarousel-skin-nineup .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-nineup .jcarousel-prev-horizontal:focus {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-nineup .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -312px;
+}
+
+/* controls */
+.jcarousel-control {
+	display:block;
+	padding-right: 5px;
+	position:relative;
+	left: 50%;
+	float:left;
+}
+
+.jcarousel-control a.active {
+	background-color: #ff6666;
+	border: 1px solid #ff6666;
+	cursor: default;
+}
+.jcarousel-control a {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	color: #ccc;
+	display: inline-block;
+	height: 6px;
+	width: 6px;
+	margin-right: 10px;
+	position:relative;
+	right: 50%;
+	float: left;
+}
