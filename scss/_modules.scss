@@ -8,7 +8,7 @@
 .thumbnails{float:left;position:absolute;}
 .thumbnails a{float:none;position:absolute;top:0;z-index:20;width:120px;height:77px;border:1px solid #fff;}
 .thumbnails a.active .count{background-color:rgba(0, 0, 0, 0.6);}
-.thumbnails span {color:#fff;position:absolute;left:0px;top:0px;font:36px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif; padding:20px;width:80px;height:57px;}
+.thumbnails span {color:#fff;position:absolute;left:0px;top:0px;font:36px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif; padding:20px 20px 0 20px;width:80px;height:57px;}
 .thumbnails a:nth-child(n){text-align:right;}
 .thumbnails a:nth-child(n+5){text-align:left;} 
 #dl-thumbnail-0{left:0px;top:0px; border-width:0 1px 1px 0;}

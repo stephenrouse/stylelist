@@ -668,7 +668,7 @@ input#join {
   left: 0px;
   top: 0px;
   font: 36px/1 "alternate-gothic-no-2-d-n4", "alternate-gothic-no-2-d", sans-serif;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   width: 80px;
   height: 57px;
 }
