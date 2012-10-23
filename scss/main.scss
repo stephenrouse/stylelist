@@ -8,7 +8,7 @@ body {font: 400 15px/1.6 'proxima-nova-n4','proxima-nova',sans-serif;}
 html, button, input, select, textarea {font-family: Arial, sans-serif; color: #333333;}
 a {color: #B7B7B9;}
 
-h2 {font: 26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d', sans-serif; text-transform: uppercase;}
+h2 {font: 26px/1 'alternate-gothic-no-2-d', sans-serif; text-transform: uppercase;}
 
 
 /*ads */
@@ -264,3 +264,17 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 	padding: 5px 8px 0 8px;
 	position: absolute;
 }
+
+/* Redesign Styles */
+.bottom-left, .bottom-right {display:none;}
+.aol-photo-gallery .thumbnails li {margin:0; opacity:1 !important;}
+.aol-photo-gallery .thumbnails {width: 472px !important; height: 477px !important; background-color: #fff !important;}
+.aol-photo-gallery .gallery {width: 472px; height: 477px; margin:0 auto;}
+
+/* featured videos, galleries */
+.featured {margin-top: 40px;}
+.featured-item img {float:left;}
+
+
+@import "modules";
+
