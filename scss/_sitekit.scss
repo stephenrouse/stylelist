@@ -1,0 +1,280 @@
+/*
+ * Main Styles for this site
+ */
+
+/* General Rules */
+body {font: 400 15px/1.6 'proxima-nova-n4','proxima-nova',sans-serif;}
+
+html, button, input, select, textarea {font-family: Arial, sans-serif; color: #333333;}
+a {color: #B7B7B9;}
+
+h2 {font: 26px/1 'alternate-gothic-no-2-d', sans-serif; text-transform: uppercase;}
+
+
+/*ads */
+.header-ad {text-align:center; background-color: #ededed;}
+.ad215x35 {float: left; margin-top: -10px;}
+
+/*follow us buttons - top */
+#page > header {margin-top:0; padding-top: 0;}
+#aol-follow {overflow:hidden;}
+#aol-follow ul {list-style-type:none; padding-left:0; margin-top: 0;}
+#aol-follow li {float:left;}
+
+#aol-follow li a {background: url("http://o.aolcdn.com/os/aol/sitekit/images/common-elements-sprite.png") no-repeat transparent 0 0;
+				  display:block;
+				  height: 36px;
+				  width:28px;
+				  font-size: 0px;
+				  margin-right: 8px;}
+							 
+#aol-follow li.twitter a {background-position: -33px 0;}
+#aol-follow li.pinterest a {background-position: -68px 0;}
+
+
+/* top nav */
+.main-nav, .post-head {border-bottom: 1px solid #66ccff;}
+
+.main-nav {overflow:hidden;text-align:center;position:relative; margin-top: -10px;}
+
+.main-nav ul {margin-top:35px; display:inline-block; margin-bottom:-5px;padding:0;}
+
+.main-nav li {float:left; text-transform:uppercase; padding: 0 12px; font-size: 10px;}
+
+.main-nav li a {text-decoration:none; color: #b7b7b9; font: 500 14px/1 'p22-underground-n5','p22-underground',sans-serif; letter-spacing: 1px; text-transform: uppercase;}
+.main-nav li a:hover {color: #66CCFF;}
+
+.main-nav .home-link a {background: url("http://o.aolcdn.com/os/Stylelist/images/brand-elements-sprite.png") no-repeat transparent;
+                        height:65px;
+                        font-size:0px;
+                        margin-top: -35px;
+						display:block;
+						width:244px;}
+
+/* article body */
+#main {margin-top:0;}
+#main a {text-decoration: none;}
+.entry-title {text-transform: uppercase; color: #ff6666; margin-top:0; font-size: 36px; font-weight:normal; line-height: 36px; margin-bottom: 0;}
+
+.byline {font-style:normal; font-size:11px; color: #666; float:right; margin-bottom: 5px; margin-top:0;}
+
+.post {border-bottom: 1px solid #66ccff; margin-bottom: 25px;}
+.post-meta {margin-bottom: 35px;}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {background-color: #66CCff;}
+
+
+/* override user agent css on byline*/
+address {font-style: normal !important;}
+
+abbr[title] {border-bottom: none;}
+
+.aol-share-post {margin-top: 15px;}
+
+p.share-text, address {font: 500 11px/1 'p22-underground-n5','p22-underground',sans-serif; color: #B7B7B9;}
+p.share-text {float:right; padding-right:10px; margin-top:7px;}
+.aol-share {float:right;}
+#sponsor-share {margin-bottom:10px;}
+
+#primary img {border: 1px solid #66ccff !important; padding:4px;}
+#permalink .captioncenter p {margin-top:5px; color: #666; font-style:italic; font-size: 12px;}
+
+/* comments */
+.comment-count{display:none;}
+
+/* gallery */
+.aol-photo-gallery .gallery{background-color:#fff;border:solid 1px #6CF;padding:4px;}
+aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:0;}
+
+/* footer */
+#page > footer {background-color: #000; padding:20px; overflow:hidden;}
+
+#page > footer .main-nav ul {margin-top: 20px; margin-bottom: 15px;}
+#page > footer .main-nav li a {color: #B7B7B9;}
+
+#page > footer .main-nav {border-bottom:none; }
+#page > footer .home-link a {background-position: -246px 0; margin-top: -10px; margin-left:0; width:116px; height: 35px;}
+
+#page > footer #aol-follow {text-align:center;}
+#page > footer #aol-follow ul {display:inline-block;}
+#page > footer #aol-follow li.facebook a {background-position: -100px 0;}
+#page > footer #aol-follow li.twitter a {background-position: -130px 0;}
+#page > footer #aol-follow li.pinterest a {background-position: -165px 0;}
+#page > footer #aol-footer-links li {border-right: 1px solid #555555; font: 400 12px/1 'proxima-nova', 'proxima-nova-n4', arial, helvetica, sans-serif; text-transform:none; word-spacing: 1px;}
+#page > footer #aol-footer-links li.last {border-right:none;}
+
+
+#copyright {list-style:none;padding:0; color: #555;font: 400 12px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif;letter-spacing: normal; text-align:center;}
+#copyright li {float:none;padding:0 10px;display: inline;}
+#copyright a {color: #555; text-decoration:none;}
+
+#page > footer .main-nav li a:hover, #copyright a:hover {color: #66CCFF;}
+#page > footer #copyright li span {padding: 10px 0;}
+
+/* newsletter signup */
+.vip {margin-bottom:10px;}
+.vip h2 {margin-bottom: 5px;}
+
+.vip input[type="text"] {
+    -moz-appearance: caret;
+    border: 1px solid;
+    color: #B7B7B9;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    padding: 10px 0 8px 15px;
+	float:left;
+	width: 70%;
+}
+
+#newsletter-form input {border-right:none; border-radius: 7px 0 0 7px; font: 400 12px/1 'proxima-nova', 'proxima-nova-n4', arial, helvetica, sans-serif; letter-spacing: 2px;}
+input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1px solid #66CCFF;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {input#join {padding:10px 12px;}}
+
+
+
+#google_translate_element {
+	margin-bottom:20px;
+}
+
+
+/* Mods from SiteKit to accommodate full width footer */
+#page{
+	width:100%;
+	padding:0;
+}
+#page > header, #main {
+	margin: 0 auto;
+	padding:10px;
+	width:960px;
+}
+
+
+.featured-items h2 {
+	margin-bottom:0;
+}
+
+.featured-items .list-items p {
+	color: black;
+	font: normal 24px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;
+	padding: 5px 5px 5px 120px;
+	text-transform: uppercase;
+}
+
+.featured-items .list-items .featured-item {
+	border-top: 1px solid #CCC;
+	margin-bottom: 10px;
+	min-height: 110px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.featured-items .list-items img {
+	display: block;
+	height: 110px;
+	left: 0;
+	position: absolute;
+	top: 5px;
+	width: 110px;
+}
+
+.featured-items .list-items p {
+	color: black;
+	font: normal 24px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;
+	padding: 5px 5px 5px 120px;
+	text-transform: uppercase;
+	margin:0;
+}
+
+.featured-items .list-items p span {
+	color: #B7B7B9;
+	display: block;
+	font: 500 11px/1 'p22-underground-n5','p22-underground',sans-serif;
+	letter-spacing: 1px;
+	padding-top: 5px;
+}
+
+
+.the-lists-small {
+	left: -20px;
+	margin: 0;
+	position: relative;
+	width: 640px;
+}
+
+#secondary .the-lists-small {
+	left: auto;
+	padding: 20px 0 0;
+	width: 300px;
+}
+
+.the-lists-small h3 {
+	color:#ccc;
+	font: 500 11px/1 'p22-underground-n5','p22-underground',sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin:0;
+}
+
+.the-lists-small h2 {
+	margin:4px 0;
+}
+
+.the-lists-small h2 a {
+	color:#000;
+}
+
+.list-body {
+	margin-top: 5px;
+}
+
+.the-lists-small .list-body > div, .video-features .video .video-body {
+	border: 1px solid #6CF;
+	height: 300px;
+	position: relative;
+	width: 300px;
+}
+
+.list-body div div {
+	float: left;
+	height: 150px;
+	padding: 5px 0 0 5px;
+	position: relative;
+	width: 150px;
+}
+
+.the-lists-small .list-body div div {
+	height: 95px;
+	padding: 4px 0 0 4px;
+	width: 95px;
+}
+
+.the-lists-small .list-body div div img {
+	height: 95px;
+	width: 95px;
+}
+
+.list-body div div span {
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 0;
+	color: black;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff);
+	font: 400 18px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;
+	left: 4px;
+	padding: 5px 8px 0 8px;
+	position: absolute;
+}
+
+/* Redesign Styles */
+.bottom-left, .bottom-right {display:none;}
+.aol-photo-gallery .thumbnails li {margin:0; opacity:1 !important;}
+.aol-photo-gallery .thumbnails {width: 472px !important; height: 477px !important; background-color: #fff !important;}
+.aol-photo-gallery .gallery {width: 472px; height: 477px; margin:0 auto;}
+
+/* featured videos, galleries */
+.featured {margin-top: 40px;}
+.featured-item img {float:left;}
+
+
+@import "modules";
+
