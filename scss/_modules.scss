@@ -50,6 +50,10 @@
 
 
 /* Featured Lists */
+.featured-items-primary, .featured-items {float:left;}
+.featured-items-primary .featured-items {width:50%;}
+.list-items {padding-right: 20px;}
+
 .featured-items h2 {
 	margin-bottom:0;
 }
