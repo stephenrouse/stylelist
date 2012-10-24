@@ -32,5 +32,8 @@
 #inspiration-wall {margin: 0 auto; width: 950px;}
 .inspiration-heading {}
 .inspiration-list {padding:0}
-.inspiration-tile {float: left; height: 290px; list-style-type: none; margin: 0 40px 40px 0; width: 290px;}
+.inspiration-tile {float: left; height: 290px; list-style-type: none; margin: 0 40px 40px 0; position: relative; width: 290px;}
 .inspiration-tile:nth-child(3n) {margin-right: 0;}
+.inspiration-title {background-color: #888; background-color: rgba(0,0,0,0.6); margin: 0; padding: 10px; position: absolute; bottom: 0; width: 270px;}
+.inspiration-description {display: none;}
+.inspiration-view-now {display: none;}
