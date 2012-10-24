@@ -50,6 +50,10 @@
 
 
 /* Featured Lists */
+.featured-items-primary, .featured-items {float:left;}
+.featured-items-primary .featured-items {width:50%;}
+.list-items {padding-right: 20px;}
+
 .featured-items h2 {
 	margin-bottom:0;
 }
@@ -352,7 +356,7 @@ p.share-text {float:right; padding-right:10px; margin-top:7px;}
 .aol-share {float:right;}
 #sponsor-share {margin-bottom:10px;}
 
-#primary img {border: 1px solid #66ccff !important; padding:4px;}
+#primary img {border: 1px solid #66ccff; padding:4px;}
 #permalink .captioncenter p {margin-top:5px; color: #666; font-style:italic; font-size: 12px;}
 
 /* comments */
