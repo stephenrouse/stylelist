@@ -39,12 +39,14 @@
 #dl-thumbnail-5{left:500px;top:78px;border-width:0 0 1px 1px;}
 #dl-thumbnail-6{left:500px;top:156px;border-width:0 0 1px 1px;}
 #dl-thumbnail-7{left:500px;top:234px;border-width:0 0 0 1px;}
-#dl-main .dl-image img{width:378px;height:311px;border:none !important;}
+#dl-main .dl-image img{width:378px;height:311px;border:none !important;padding:0;}
 .carousel{position:relative;width:620px;overflow:hidden;}
 .carousel-btns{text-align: center;width:40%; margin:0 250px;float:left;}
 .carousel .dl-image{margin-left:120px;}
-.prevArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -82px -330px;width:25px;height:28px;font-size:0;float:left;}
-.nextArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -106px -330px;width:25px;height:28px;font-size:0;float:left;}
+.prevArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -82px -330px;width:25px;height:28px;font-size:0;float:left;cursor:pointer;}
+.nextArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -106px -330px;width:25px;height:28px;font-size:0;float:left;cursor:pointer;}
+.prevArw:hover{background-position:-82px -358px;}
+.nextArw:hover{background-position:-106px -358px;}
 .slide-count{float:left;font:500 14px/2 'p22-underground-n5','p22-underground',sans-serif;color:#B7B7B9;text-transform:uppercase;width:100px;}
 /* end DL Home */
 
@@ -395,3 +397,20 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 #newsletter-form input {border-right:none; border-radius: 7px 0 0 7px; font: 400 12px/1 'proxima-nova', 'proxima-nova-n4', arial, helvetica, sans-serif; letter-spacing: 2px;}
 input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1px solid #66CCFF;}
 @media screen and (-webkit-min-device-pixel-ratio:0) {input#join {padding:10px 12px;}}
+
+/* Top of our list */
+.top-of-our-list{float:left;}
+.top-of-our-list h1{background:transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -385px -96px;padding-left:80px;font-size:22px;text-transform:uppercase;}
+.top-of-our-list h1 span{font-size:13px;color:#B7B7B9;float:left;width:100%;}
+.top-of-our-list .list-items .list-item {background-color:#F2F1F1;margin:2px 3px;float:left;width:98%;list-style-type:none;}
+.top-of-our-list .list-items .list-item h2{width:55%;float:left;padding:10px;text-align:center;color:#666666;}
+.top-of-our-list .list-items .list-item a:hover h2{color:#FF6666;}
+.top-of-our-list .list-items .list-item:nth-child(2n+1) h2{float:right;}
+.top-of-our-list .list-items .list-item img{float:left;width:110px;height:110px;}
+.top-of-our-list .list-items .list-item:nth-child(2n+1) img{float:right;}
+.top-of-our-list .list-items{float:left;border:1px solid #FF6666;padding:2px 0;margin:0;}
+.top-of-our-list .list-items .list-item h2 span{color:#FF6666;width:100%;float:left;padding-bottom:4px;font-size:26px;text-align:left;}
+.top-of-our-list .list-items .list-item h2 span span{font-size:24px;width:50%;text-align:right;}
+.top-of-our-list .list-items .list-item a:hover h2 span{color:#666;}
+.top-of-our-list .entry-title {font:22px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;color:#666666;letter-spacing:normal;line-height:normal;}
+/* end Top of our list */
