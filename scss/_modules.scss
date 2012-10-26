@@ -213,8 +213,13 @@
 span.nineup-index {background-color: rgba(255,255,255,.8);
 			   bottom:0;
 			   color: #000;
-			   font: 400 18px/1 'alternate-gothic-no-2-d-n4', 'alternate-gothic-no-2-d', sans-serif;
-			   left: 4px;}
+			   font: 400 18px/1 'alternate-gothic-no-2-d', sans-serif;
+			   left: 0;
+			   padding: 5px 8px 0 8px;
+			   width: auto;
+			   position: relative;
+			   top:128px;
+			   }
 		
 
 .jcarousel-skin-nineup .jcarousel-direction-rtl {
@@ -383,12 +388,13 @@ p.share-text {float:right; padding-right:10px; margin-top:7px;}
 /* comments */
 .comment-count{display:none;}
 
-/* gallery */
+/* gallery overrides*/
 .aol-photo-gallery .gallery{background-color:#fff;border:solid 1px #6CF;padding:4px; width: 472px; height: 477px; margin:0 auto;}
 aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:0;}
 .bottom-left, .bottom-right {display:none;}
 .aol-photo-gallery .thumbnails li {margin:0; opacity:1 !important;}
 .aol-photo-gallery .thumbnails {width: 472px !important; height: 477px !important; background-color: #fff !important;}
+.aol-photo-gallery h2 {color: #F66; font: normal 36px/1 'alternate-gothic-no-2-d'; margin-right:0;}
 
 
 /* newsletter signup */
