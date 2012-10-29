@@ -313,7 +313,8 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 
 .jcarousel-skin-nineup .jcarousel-prev-horizontal:hover, 
 .jcarousel-skin-nineup .jcarousel-prev-horizontal:focus {
-    background-position: -32px 0;
+    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -312px;
+   
 }
 
 .jcarousel-skin-nineup .jcarousel-prev-horizontal:active {
@@ -389,12 +390,13 @@ p.share-text {float:right; padding-right:10px; margin-top:7px;}
 .comment-count{display:none;}
 
 /* gallery overrides*/
-.aol-photo-gallery .gallery{background-color:#fff;border:solid 1px #6CF;padding:4px; width: 472px; height: 477px; margin:0 auto;}
+.aol-photo-gallery .gallery{background-color:#fff;border:solid 1px #6CF;padding:4px; width: 470px; height: 470px; margin:0 auto;}
 aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:0;}
 .bottom-left, .bottom-right {display:none;}
 .aol-photo-gallery .thumbnails li {margin:0; opacity:1 !important;}
 .aol-photo-gallery .thumbnails {width: 472px !important; height: 477px !important; background-color: #fff !important;}
 .aol-photo-gallery h2 {color: #F66; font: normal 36px/1 'alternate-gothic-no-2-d'; margin-right:0;}
+.aol-photo-gallery .thumbnails li {padding: 5px 0 0 5px}
 
 
 /* newsletter signup */
