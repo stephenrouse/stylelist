@@ -220,11 +220,11 @@
 
 .controls {height:30px; position:relative; text-align:center; margin-bottom:40px;}
 
-.button {border: 1px solid #e7e6e6; border-radius: 6px; color: #b7b7b9; letter-spacing:2px; text-transform:uppercase; font: 600 11px/1 'proxima-nova'; letter-spacing:2px; display:inline-block; padding: 10px 0 10px 50px; cursor:pointer;}
+.button {border: 1px solid #e7e6e6; border-radius: 6px; color: #b7b7b9; letter-spacing:2px; text-transform:uppercase; font: 600 11px/1 'proxima-nova'; letter-spacing:2px; display:inline-block; padding: 10px 0 10px 40px; cursor:pointer;}
 
 .nineup-view-slideshow {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -418px -220px; width:163px; margin-right:50px;}
 
-.browse-lists {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -419px -192px; width:163px;}
+.browse-lists {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -419px -192px; width:153px;}
 
 a.nineup-view-slideshow:hover, a.browse-lists:hover {color: #66ccff;}
 
@@ -329,13 +329,10 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 
 .jcarousel-skin-nineup .jcarousel-prev-horizontal:hover, 
 .jcarousel-skin-nineup .jcarousel-prev-horizontal:focus {
-    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -312px;
+    background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -360px;
    
 }
 
-.jcarousel-skin-nineup .jcarousel-prev-horizontal:active {
-    background-position: -64px 0;
-}
 
 .jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal,
 .jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal:hover,
@@ -343,7 +340,7 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 .jcarousel-skin-nineup .jcarousel-prev-disabled-horizontal:active {
     cursor: default;
     background: transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -312px;
-}
+} 
 
 /* controls */
 .jcarousel-control {
