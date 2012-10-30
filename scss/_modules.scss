@@ -102,6 +102,15 @@
 	padding-top: 5px;
 }
 
+.featured-items .icon-video {background:url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -372px -246px transparent;
+	cursor:pointer;
+	height:55px;
+	left:60px;
+	position:absolute;
+	top:65px;
+	width:55px;
+	text-indent: -9999px;}
+
 
 .the-lists-small {
 	left: -20px;
@@ -209,9 +218,9 @@
 
 #nineup {clear:both; border-bottom: 1px solid #6CF; padding-bottom:25px; padding-top: 30px;}
 
-.controls {height:30px; position:relative; text-align:center;}
+.controls {height:30px; position:relative; text-align:center; margin-bottom:40px;}
 
-.button {border: 1px solid #e7e6e6; border-radius: 6px; color: #b7b7b9; letter-spacing:2px; text-transform:uppercase; font: 600 11px/1 'proxima-nova'; letter-spacing:2px; display:inline-block; padding: 10px 0 10px 50px;}
+.button {border: 1px solid #e7e6e6; border-radius: 6px; color: #b7b7b9; letter-spacing:2px; text-transform:uppercase; font: 600 11px/1 'proxima-nova'; letter-spacing:2px; display:inline-block; padding: 10px 0 10px 50px; cursor:pointer;}
 
 .nineup-view-slideshow {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -418px -220px; width:163px; margin-right:50px;}
 
@@ -292,10 +301,6 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 .jcarousel-skin-nineup .jcarousel-next-horizontal:hover,
 .jcarousel-skin-nineup .jcarousel-next-horizontal:focus {
     background-position: -38px -360px;
-}
-
-.jcarousel-skin-nineup .jcarousel-next-horizontal:active {
-    background-position: -64px 0;
 }
 
 .jcarousel-skin-nineup .jcarousel-next-disabled-horizontal,
@@ -406,7 +411,7 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 .bottom-left, .bottom-right {display:none;}
 .aol-photo-gallery .thumbnails li {margin:0; opacity:1 !important;}
 .aol-photo-gallery .thumbnails {width: 472px !important; height: 477px !important; background-color: #fff !important;}
-.aol-photo-gallery h2 {color: #F66; font: normal 36px/1 'alternate-gothic-no-2-d'; margin-right:0;}
+.aol-photo-gallery h2 {color: #F66; font: normal 36px/1 'alternate-gothic-no-2-d'; margin-right:0; text-align:center;}
 .aol-photo-gallery .thumbnails li {padding: 5px 0 0 5px}
 
 
