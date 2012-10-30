@@ -40,7 +40,7 @@
 #dl-thumbnail-6{left:500px;top:156px;border-width:0 0 1px 1px;}
 #dl-thumbnail-7{left:500px;top:234px;border-width:0 0 0 1px;}
 #dl-main .dl-image img{width:378px;height:311px;border:none !important;padding:0;}
-.carousel{position:relative;width:620px;overflow:hidden;}
+.carousel{position:relative;width:620px;overflow:hidden;border-bottom: 1px solid #66CCFF; padding-bottom:25px;}
 .carousel-btns{text-align: center;width:40%; margin:0 250px;float:left;}
 .carousel .dl-image{margin-left:120px;}
 .prevArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -82px -330px;width:25px;height:28px;font-size:0;float:left;cursor:pointer;}
@@ -211,9 +211,13 @@
 
 .controls {height:30px; position:relative; text-align:center;}
 
-.nineup-view-slideshow {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -418px -227px; width:163px; padding-bottom:10px; padding-left:50px; margin-right:50px;}
+.button {border: 1px solid #e7e6e6; border-radius: 6px; color: #b7b7b9; letter-spacing:2px; text-transform:uppercase; font: 600 11px/1 'proxima-nova'; letter-spacing:2px; display:inline-block; padding: 10px 0 10px 50px;}
 
-.browse-lists {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -419px -198px; width:163px; padding-bottom:10px; padding-left:50px;}
+.nineup-view-slideshow {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -418px -220px; width:163px; margin-right:50px;}
+
+.browse-lists {background: url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -419px -192px; width:163px;}
+
+a.nineup-view-slideshow:hover, a.browse-lists:hover {color: #66ccff;}
 
 .featured-items-primary {margin: 30px 0 15px; padding-bottom: 55px;}
 
