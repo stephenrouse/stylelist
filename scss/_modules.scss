@@ -183,17 +183,20 @@
 }
 
 
-
 /* Inspiration wall */
 #inspiration-wall {margin: 0 auto; width: 950px;}
 .inspiration-heading {}
 .inspiration-list {padding:0}
-.inspiration-tile {float: left; height: 290px; list-style-type: none; margin: 0 40px 40px 0; position: relative; width: 290px;}
-.inspiration-tile a {color: #fff; height: 290px; display: block; text-decoration: none;}
+.inspiration-tile {
+	float: left; height: 290px; list-style-type: none; margin: 0 40px 40px 0; position: relative; width: 290px;
+	.icons-sl-circle {height: 22px; margin: -11px auto 0; width: 22px;}
+}
+
+.inspiration-tile a {@include transition(background 0.5s 0); color: #fff; height: 290px; display: block; text-decoration: none;}
 .inspiration-tile:nth-child(3n) {margin-right: 0;}
 .inspiration-title {background-color: #888; background-color: rgba(0,0,0,0.6); bottom: 0; font-size: 24px; font-weight: normal; line-height: 24px; margin: 0; padding: 10px 5px; position: absolute; text-transform: uppercase; width: 280px;}
 .inspiration-description {display: none; font-size: 14px; line-height: 17px;}
-.inspiration-view-now {display: none; font-size: 12px;}
+.inspiration-view-now {@include transition(background 0.5s 0); display: none; font-size: 12px;}
 .inspiration-tile:hover {
 	a {background-color: rgba(0,0,0,0.6);}
 	.inspiration-title {background-color: transparent; position: relative;}
