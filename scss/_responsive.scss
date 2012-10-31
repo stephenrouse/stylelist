@@ -30,6 +30,13 @@
 	.carousel .dl-image{margin-left:80px;padding:0;}
 	.dl .entry-title{width:400px;margin:20px 0;}
 	.carousel-btns{margin:0 150px;}
+	.inspiration-list {width: 748px;}
+	.inspiration-tile:nth-child(1n) {
+		margin: 0 40px 40px 40px; 
+	}
+	.inspiration-tile:nth-child(2n) {
+		margin-right: 0;
+	}
 }
 
 
@@ -74,6 +81,7 @@
 	.dl .entry-title{margin:20px 0;width:400px;}
 	.carousel{margin-top:0px;}
 	.carousel-btns{margin:0 100px;}
+	.inspiration-list {width: 300px;}
 	
 }
 
@@ -99,4 +107,15 @@
 	.carousel .dl-image{margin-left:80px;padding:0;}
 	.dl .entry-title{width:400px;margin:20px 0;}
 	.carousel-btns{margin:0 150px;}
+	.inspiration-list {width: 460px;}
+	.inspiration-tile {
+		float: none;
+	}
+	.inspiration-tile:nth-child(1n) {
+		margin: 0 auto 20px; 
+	}
+	.inspiration-tile:nth-child(2n) {
+		margin: 0 auto 20px;
+	}
+
 }
