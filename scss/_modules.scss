@@ -189,7 +189,7 @@
 .inspiration-list {padding:0}
 .inspiration-tile {
 	float: left; height: 290px; list-style-type: none; margin: 0 40px 40px 0; position: relative; width: 290px;
-	.icons-sl-circle {height: 22px; margin: -11px auto 0; width: 22px;}
+	.icons-sl-circle {height: 22px; left: 135px; position: absolute; top: -11px; width: 22px;}
 }
 
 .inspiration-tile a {@include transition(background 0.5s 0); color: #fff; height: 290px; display: block; text-decoration: none;}
