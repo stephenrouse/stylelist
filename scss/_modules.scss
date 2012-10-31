@@ -188,7 +188,12 @@
 	margin: 0 auto; 
 	width: 950px;
 }
-.inspiration-heading {}
+.inspiration-heading {
+	font: 0/0;
+	height: 124px;
+	margin: 0 auto 20px;
+	width: 127px;
+}
 .inspiration-list {
 	padding:0
 }
@@ -208,7 +213,8 @@
 }
 .inspiration-tile a {
 	@include transition(background 0.5s 0); 
-	color: #fff; height: 290px; 
+	color: #fff; 
+	height: 290px; 
 	display: block; 
 	text-decoration: none;
 }
@@ -219,6 +225,7 @@
 	background-color: #888;
 	background-color: rgba(0,0,0,0.6);
 	bottom: 0;
+	/* font-family: $headingfont; */
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
