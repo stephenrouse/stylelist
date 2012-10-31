@@ -190,7 +190,7 @@
 .inspiration-heading {
 	font: 0/0;
 	height: 124px;
-	margin: 0 auto;
+	margin: 0 auto -25px;
 	position: relative;
 	top: -50px;
 	width: 127px;
@@ -201,7 +201,8 @@
 	width: 950px;
 }
 .inspiration-tile {
-	float: left; 
+ 	@include box-shadow(#000 0 0 20px 0);	
+ 	float: left; 
 	height: 290px; 
 	list-style-type: none; 
 	margin: 0 40px 40px 0; 
@@ -215,7 +216,7 @@
 		width: 22px;}
 }
 .inspiration-tile a {
-	@include transition(background 0.5s 0); 
+	@include transition(background 0.7s 0); 
 	color: #fff; 
 	height: 290px; 
 	display: block; 
