@@ -41,6 +41,10 @@
 	.inspiration-tile:nth-child(2n) {
 		margin-right: 0;
 	}
+
+	/* featured galleries & videos */
+	.featured-items-primary {float:none;}
+	.featured-items-primary .featured-items {width:100%;}
 }
 
 
@@ -86,7 +90,10 @@
 	.carousel{margin-top:0px;}
 	.carousel-btns{margin:0 100px;}
 	.inspiration-list {width: 300px;}
-	
+
+	/* featured galleries & videos */
+	.featured-items-primary {float:none;}
+	.featured-items-primary .featured-items {width:100%;}
 }
 
 
