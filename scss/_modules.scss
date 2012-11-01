@@ -482,6 +482,12 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 .aol-photo-gallery h2 {color: #F66; font: normal 36px/1 'alternate-gothic-no-2-d'; margin-right:0; text-align:center;}
 .aol-photo-gallery .thumbnails li {padding: 5px 0 0 5px}
 
+/* permalink gallery */
+#permalink article.post .aol-photo-gallery ul.bottom-right {display:block;}
+
+.aol-photo-gallery-fullscreen .aol-photo-gallery ul.bottom-right {display:block;}
+.aol-photo-gallery-fullscreen .aol-photo-gallery .thumbnails {width:auto !important; height:auto !important;}
+
 
 /* newsletter signup */
 .vip {margin-bottom:10px;}
