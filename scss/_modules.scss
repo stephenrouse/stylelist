@@ -39,10 +39,10 @@
 #dl-thumbnail-5{left:500px;top:78px;border-width:0 0 1px 1px;}
 #dl-thumbnail-6{left:500px;top:156px;border-width:0 0 1px 1px;}
 #dl-thumbnail-7{left:500px;top:234px;border-width:0 0 0 1px;}
-.dl .dl-image img{width:378px;height:311px;border:none !important;padding:0;}
+#dl-main.dl .dl-image img{width:378px;height:311px;border:none !important;padding:0;}
 .carousel{position:relative;width:620px;overflow:hidden;border-bottom: 1px solid #66CCFF; padding-bottom:25px;}
 .carousel-btns{text-align: center;width:40%; margin:0 250px;float:left;}
-.carousel .dl-image{margin-left:120px;}
+#dl-main .carousel .dl-image{margin-left:120px;}
 .prevArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -82px -330px;width:25px;height:28px;font-size:0;float:left;cursor:pointer;}
 .nextArw{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -106px -330px;width:25px;height:28px;font-size:0;float:left;cursor:pointer;}
 .prevArw:hover{background-position:-82px -358px;}
@@ -50,7 +50,9 @@
 .slide-count{float:left;font:500 14px/2 'p22-underground-n5','p22-underground',sans-serif;color:#B7B7B9;text-transform:uppercase;width:100px;}
 /* end DL Home */
 
-
+/* Category DL */
+#dl-cat.dl .dl-image img{width:auto;height:310px;padding:0;border:none;}
+/* end category DL */
 /* Featured Lists */
 .featured-items-primary, .featured-items {float:left;}
 .featured-items-primary .featured-items {width:50%;}
