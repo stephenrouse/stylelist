@@ -18,7 +18,7 @@
 						width:244px;}
 
 
-/* DL Home */
+/* DL home */
 #dl-main.dl .thumbnails img{vertical-align:none;width:120px;height:77px;border:none !important;margin:0 !important;padding:0}
 .dl .entry-title{margin:20px 20px 5px 20px;text-align:center;}
 .dl .entry-title a{color:#FF6666;}
@@ -50,9 +50,11 @@
 .slide-count{float:left;font:500 14px/2 'p22-underground-n5','p22-underground',sans-serif;color:#B7B7B9;text-transform:uppercase;width:100px;}
 /* end DL Home */
 
-/* Category DL */
+/* category DL */
 #dl-cat.dl .dl-image img{width:auto;height:310px;padding:0;border:none;}
+.videos .icon-video{background:	transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -156px -222px; width:80px;height:80px; position:absolute;top:30%;left:9%;}
 /* end category DL */
+
 /* Featured Lists */
 .featured-items-primary, .featured-items {float:left;}
 .featured-items-primary .featured-items {width:50%;}
