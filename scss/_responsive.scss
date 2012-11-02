@@ -22,17 +22,18 @@
 
 	.dl .thumbnails img{width:100px;}
 	.carousel{margin-top:0px;}
-	.dl .dl-image img{width:280px;margin-left:78px;height:230px;}
+	#dl-main.dl .dl-image img{width:280px;margin-left:78px;height:230px;}
 	.thumbnails span{padding:5px;width:70px;height:50px;}
 	.thumbnails a{width:80px;height:60px;}
 	#dl-main.dl .thumbnails img{width:80px;height:60px;}
 	#dl-thumbnail-4,#dl-thumbnail-5,#dl-thumbnail-6,#dl-thumbnail-7{left:360px;}
-	.carousel .dl-image{margin-left:80px;padding:0;}
+	#dl-main .carousel .dl-image{margin-left:80px;padding:0;}
 	.dl .entry-title{width:400px;margin:20px 0;}
 	.carousel-btns{margin:0 150px;}
        	#dl-thumbnail-1,#dl-thumbnail-5{top:61px;}
 	#dl-thumbnail-2,#dl-thumbnail-6{top:122px;}
 	#dl-thumbnail-3,#dl-thumbnail-7{top:183px;}
+        #dl-cat.dl .dl-image img{width:430px;height:250px;}
 
 	.inspiration-list {width: 748px;}
 	.inspiration-tile:nth-child(1n) {
@@ -86,10 +87,11 @@
 	#page > footer #aol-footer-links li {border-right: none;}
 
 	.dl .thumbnails{display:none;}
-	.carousel .dl-image{margin-left:5px;}
-	.dl .entry-title{margin:20px 0;width:400px;}
+	#dl-main .carousel .dl-image{margin-left:5px;}
+	.dl .entry-title{margin:20px 0;width:310px;}
 	.carousel{margin-top:0px;}
 	.carousel-btns{margin:0 100px;}
+        #dl-cat.dl .dl-image img {width: 310px;margin-left: 0px;height: 175px;}
 	.inspiration-list {width: 300px;}
 
 	/* featured galleries & videos */
@@ -116,13 +118,14 @@
 	.dl .thumbnails a{width:80px;height:60px;}
 	.dl .thumbnails img{width:80px;height:60px;}
 	#dl-thumbnail-4,#dl-thumbnail-5,#dl-thumbnail-6,#dl-thumbnail-7{left:360px;}
-	.carousel .dl-image{margin-left:80px;padding:0;}
+	#dl-main .carousel .dl-image{margin-left:80px;padding:0;}
 	.dl .entry-title{width:400px;margin:20px 0;}
 	.carousel-btns{margin:0 150px;}
        	#dl-thumbnail-1,#dl-thumbnail-5{top:61px;}
 	#dl-thumbnail-2,#dl-thumbnail-6{top:122px;}
 	#dl-thumbnail-3,#dl-thumbnail-7{top:183px;}
-	.inspiration-list {width: 460px;}
+	#dl-cat.dl .dl-image img{width:430px;height:250px;}
+        .inspiration-list {width: 460px;}
 	.inspiration-tile {
 		float: none;
 	}
