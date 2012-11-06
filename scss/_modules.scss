@@ -446,6 +446,21 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 	float: left;
 }
 
+/* mini nineup non carousel module */
+#nineup-mini {float:left; width:640px; margin-left:-20px;}
+#nineup-mini-lists {list-style-type:none; padding-left:0;}
+
+#nineup-mini-lists .aol-photo-gallery .thumbnails li {height: 95px!important; width: 95px !important; padding: 4px 0 0 4px;}
+
+#nineup-mini-lists .aol-photo-gallery .gallery, #nineup-mini-lists .aol-photo-gallery .thumbnails {height:300px !important; width: 300px !important; left:5px;}
+#nineup-mini-lists .aol-photo-gallery .gallery .photos li.active {visibility:hidden !important;}
+#nineup-mini-lists .nine-up-thumbs {float:left; width: 50%; height:400px;}
+#nineup-mini-lists .aol-photo-gallery h2 {color: #000000;
+    font: 26px/1 'alternate-gothic-no-2-d',sans-serif;
+    margin: 4px 0 0 10px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;}
 
 
 /* article body */
@@ -591,3 +606,14 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 .top-of-our-list .list-items .list-item a:hover h2 span{color:#666;}
 .top-of-our-list .entry-title {font:22px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;color:#666666;letter-spacing:normal;line-height:normal;}
 /* end Top of our list */
+
+
+/* Category Pages */
+#main h1 {
+border-bottom: 1px solid #6CF;
+margin-bottom: 10px;
+text-transform: uppercase;
+color: #F66;
+font: normal 36px/1'alternate-gothic-no-2-d',sans-serif;
+text-align: center;
+}
