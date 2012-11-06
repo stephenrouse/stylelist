@@ -192,10 +192,22 @@
 	background: url(../media/grey-linen-bg.png) 0 0 repeat;
 }
 .inspiration-heading {
+	position: relative;
+}
+.inspiration-heading-text {
+	border-bottom: 1px solid white;
+	color: #fff;
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0 auto 30px;
+	max-width: 950px;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+.icons-inspiration-starburst {
 	font: 0/0;
 	height: 124px;
 	margin: 0 auto -25px;
-	position: relative;
 	top: -50px;
 	width: 127px;
 }
@@ -219,6 +231,9 @@
 		position: absolute; 
 		top: -11px; 
 		width: 22px;}
+}
+.inspiration-tile-ad {
+	color: white;
 }
 .inspiration-tile a {
 	@include transition(background 0.7s 0); 
