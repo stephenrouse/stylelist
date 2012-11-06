@@ -20,7 +20,7 @@
 
 /* DL home */
 #dl-main.dl .thumbnails img{vertical-align:none;width:120px;height:77px;border:none !important;margin:0 !important;padding:0}
-.dl .entry-title{margin:20px 20px 5px 20px;text-align:center;}
+.dl .entry-title{margin:20px 20px 5px 20px;text-align:center;float:left;clear:both;}
 .dl .entry-title a{color:#FF6666;}
 .dl{width:620px;margin:0px;overflow:hidden;float:left;}
 .dl ul li{width:378px;height:auto;list-style-type:none;z-index:10;}
@@ -51,9 +51,30 @@
 /* end DL Home */
 
 /* category DL */
-#dl-cat.dl .dl-image img{width:auto;height:310px;padding:0;border:none;}
-.videos .icon-video{background:	transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -156px -222px; width:80px;height:80px; position:absolute;top:30%;left:9%;}
+#dl-cat.dl .dl-image img{width:620px;height:310px;padding:0;border:none;float:left;}
+.videos .icon-video{background:	transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -156px -222px; width:84px;height:80px; position:relative;top:110px;left:45%;}
 /* end category DL */
+
+/* videos river */
+#list-videos{margin-top:20px; padding:0;float:left;}
+#list-videos .list-items{margin:0;padding:0;}
+#list-videos .entry-title{font-size:26px;line-height:26px;margin-bottom:5px;min-height:52px;position:relative}
+#list-videos .entry-title a{color:#000;position:absolute;bottom:0;}
+.videos .list-item{float:left;width:300px;list-style-type:none;margin:0 10px 20px 0;}
+.videos .list-item a img{width:290px;height:290px;float:left;}
+.videos .list-item:nth-child(2n){margin-right:0;}
+.videos .section-head{float:left;width:100%;}
+.videos .module-head h2{margin:0;}
+.videos .pagination{float:left;width:100%;}
+.videos .pagination ul{float:left;width:98%;padding:0;}
+.videos .pagination ul li{list-style-type:none;margin:0px;}
+.videos .pagination ul li.next{float:right;}
+.videos .pagination ul li.prev{float:left;}
+.videos .pagination ul li span{padding:0 10px;}
+.videos .pagination ul li a{width:30px;height:30px;font:600 32px/2 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif;color:#66CCFF;}
+.next div{background:transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -103px -310px;float:right;width:30px;height:48px;}
+.prev div{background: transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -74px -310px;float:left;width:34px;height:48px;}
+/* end videos river */
 
 /* Featured Lists */
 .featured-items-primary, .featured-items {float:left;}
