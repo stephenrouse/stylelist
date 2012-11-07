@@ -214,6 +214,9 @@
 #inspiration-wall {
 	background: url(../media/grey-linen-bg.png) 0 0 repeat;
 }
+#inspiration-wall.stylelist-transparent-logo {
+	background: url(../media/stylelist-transparent.png) center -50px no-repeat, url(../media/grey-linen-bg.png) 0 0 repeat;
+}
 .inspiration-heading {
 	position: relative;
 }
