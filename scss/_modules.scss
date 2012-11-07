@@ -52,6 +52,7 @@
 
 /* category DL */
 #dl-cat.dl .dl-image img{width:620px;height:310px;padding:0;border:none;float:left;}
+#dl-cat h1{margin-top:0;}
 .videos .icon-video{background:	transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -156px -222px; width:84px;height:80px; position:relative;top:110px;left:45%;}
 /* end category DL */
 
@@ -632,8 +633,8 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 
 /* Top of our list */
 .top-of-our-list{float:left;}
-.top-of-our-list h1{background:transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -385px -96px;padding-left:80px;font-size:22px;text-transform:uppercase;}
-.top-of-our-list h1 span{font-size:13px;color:#B7B7B9;float:left;width:100%;}
+.top-of-our-list .module-head h2{background:transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -385px -96px;padding-left:80px;font-size:22px;text-transform:uppercase;}
+.top-of-our-list h2 span{font-size:13px;color:#B7B7B9;float:left;width:100%;}
 .top-of-our-list .list-items .list-item {background-color:#F2F1F1;margin:2px 3px;float:left;width:98%;list-style-type:none;}
 .top-of-our-list .list-items .list-item h2{width:55%;float:left;padding:10px;text-align:center;color:#666666;}
 .top-of-our-list .list-items .list-item a:hover h2{color:#FF6666;}
@@ -657,3 +658,9 @@ color: #F66;
 font: normal 36px/1'alternate-gothic-no-2-d',sans-serif;
 text-align: center;
 }
+
+/* aol follow sitekit overrides */
+#aol-follow li.twitter a {background-position: -30px 0;}
+#aol-follow li.pinterest a{background-position: -60px 0;}
+#page > footer #aol-follow li.pinterest a{background-position: -159px 0;}
+/* end aol follow */
