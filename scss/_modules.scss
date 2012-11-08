@@ -516,7 +516,7 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 	float: left;
 }
 
-/* mini nineup non carousel module */
+/* mini nineup mini non carousel module */
 #nineup-mini {float:left; width:640px; margin-left:-20px;}
 #nineup-mini-lists {list-style-type:none; padding-left:0;}
 
@@ -533,6 +533,9 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 
 /* nineup lists category */
 .lists .aol-photo-gallery h2 {font: 26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif; margin: 4px 0 0; padding: 0; text-align: left; text-transform: uppercase; color: #000; text-align:center;}
+
+/* nineup permalink */
+#permalink .aol-photo-gallery h2 {display:none;}
 
 
 /* article body */
