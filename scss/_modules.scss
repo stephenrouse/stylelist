@@ -495,6 +495,7 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 	position:relative;
 	left: 50%;
 	float:left;
+	margin-top: -5px;
 }
 
 .jcarousel-control a.active {
@@ -541,6 +542,9 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 /* article body */
 #main {margin-top:0;}
 #main a {text-decoration: none;}
+
+#main #permalink h1 {border-bottom:none;}
+
 .entry-title {text-transform: uppercase; color: #ff6666; margin-top:0; font-size: 36px; font-weight:normal; line-height: 36px; margin-bottom: 0;}
 
 .byline {font-style:normal; font-size:11px; color: #666; float:right; margin-bottom: 5px; margin-top:0;}
