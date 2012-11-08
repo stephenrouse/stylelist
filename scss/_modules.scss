@@ -53,6 +53,7 @@
 /* category DL */
 #dl-cat.dl .dl-image img{width:620px;height:310px;padding:0;border:none;float:left;}
 #dl-cat h1{margin-top:0;}
+.videos .module-head{font:26px/1 "alternate-gothic-no-2-d",sans-serif;text-transform:uppercase;}
 .videos .icon-video{background:	transparent url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -156px -222px; width:84px;height:80px; position:relative;top:110px;left:45%;}
 /* end category DL */
 
@@ -666,10 +667,10 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 @media screen and (-webkit-min-device-pixel-ratio:0) {input#join {padding:10px 12px;}}
 
 /* Top of our list */
-.top-of-our-list{float:left;margin-top:20px;border-top:1px solid #CCC;}
-.top-of-our-list .module-head h2{font:36px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;letter-spacing:1px;margin-bottom:10px;background:transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -385px -96px;padding-left:80px;text-transform:uppercase;}
+.top-of-our-list{float:left;margin-top:20px;border-top:1px solid #CCC;padding-top:20px;}
+.top-of-our-list .module-head {font:36px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;letter-spacing:1px;margin-bottom:10px;background:transparent url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -385px -96px;padding-left:80px;text-transform:uppercase;}
 .top-of-our-list .list-items h2{font:26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;}
-.top-of-our-list h2 span{font:600 13px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif;letter-spacing:1px;color:#B7B7B9;float:left;width:100%;}
+.top-of-our-list .module-head span{font:600 13px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif;letter-spacing:1px;color:#B7B7B9;float:left;width:100%;}
 .top-of-our-list .list-items .list-item {background-color:#F2F1F1;margin:2px 3px;float:left;width:98%;list-style-type:none;}
 .top-of-our-list .list-items .list-item h2{width:55%;float:left;padding:10px;text-align:center;color:#666666;}
 .top-of-our-list .list-items .list-item a:hover h2{color:#FF6666;}
@@ -707,3 +708,14 @@ text-align: center;
 #page > footer #aol-follow li.twitter a:hover{background-position:-32px 0;}
 #page > footer #aol-follow li.pinterest a:hover{background-position:-62px 0;}
 /* end aol follow */
+
+/* just for you */
+.jfy{float:left;}
+.jfy .module-head {font:26px/1 "alternate-gothic-no-2-d",sans-serif;text-transform:uppercase;margin-bottom:10px;}
+.jfy .list-items{float:left;margin:0;padding:0;}
+.jfy .list-item{float:left;border:1px solid #66CCFF;list-style-type:none;margin:0 20px 20px 0;}
+.jfy .list-item:nth-child(2n){margin-right:0;}
+.jfy .list-item .entry-title{font:400 24px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;color:#000;float:right;width:210px;padding:4px;}
+.jfy .list-item .entry-title:hover{color:#66CCFF;}
+#just-for-you .list-item a img{border:none;width:71px;height:71px;float:left;overflow:hidden;}
+/* end just for you */
