@@ -240,9 +240,9 @@
 .inspiration-list {
 	margin: 0 auto; 
 	padding:0;
-	width: 950px;
 }
 .inspiration-list-footer {
+	width: 960px;
 	.inspiration-tile {
 		margin: 0 40px 40px 0;
 		height: 290px;
@@ -256,6 +256,7 @@
 	}
 }
 .inspiration-list-hub {
+	width: 950px;
 	.inspiration-tile {
 		margin: 0 20px 40px 0;
 		height: auto; /* accounts for changing ad heights */
@@ -266,10 +267,13 @@
 		.inspiration-title {
 			width: 290px;
 		}
+		:nth-child(3n) {
+			margin-right: 0;
+		}
 	}
 	.inspiration-tile-ad {
 		float: right;
-		margin-bottom: 30px;
+		margin-bottom: 49px;
 	}
 }
 .inspiration-tile {
