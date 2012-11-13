@@ -130,6 +130,9 @@
 	padding-top: 5px;
 }
 
+.featured-items .list-items p:hover {color:#66CCFF;}
+
+
 .featured-items .icon-video {background:url("http://dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat scroll -372px -246px transparent;
 	cursor:pointer;
 	height:55px;
@@ -209,6 +212,15 @@
 	padding: 5px 8px 0 8px;
 	position: absolute;
 }
+
+/* Right Rail Featured Videos, Galleries */
+#secondary .featured-items h2 {
+	color: #000;
+	font: normal 26px/1 'alternate-gothic-no-2-d',sans-serif;
+	margin: 4px 0 0 0;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;}
 
 
 /* Inspiration wall */
@@ -535,13 +547,16 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 
 #nineup-mini-lists span.nineup-index {top: 73px; left:-5px;}
 
-#secondary #nineup-mini h3 {font: 600 11px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+#secondary #nineup-mini h3 {font: 600 11px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif; letter-spacing: 2px; text-transform: uppercase; color: #ccc; margin: 25px 0 0 10px;}
+#secondary #nineup-mini {margin-left:-10px;}
+#secondary #nineup-mini-lists {margin-top:0;}
 
 /* nineup lists category */
 .lists .aol-photo-gallery h2 {font: 26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif; margin: 4px 0 0; padding: 0; text-align: left; text-transform: uppercase; color: #000; text-align:center;}
 
 /* nineup permalink */
 #permalink .aol-photo-gallery h2 {display:none;}
+
 
 
 /* article body */
