@@ -17,6 +17,7 @@
 						display:block;
 						width:244px;}
 
+.main-nav ul li.selected a {color:#6CF;}
 
 /* DL home */
 #dl-main.dl .thumbnails img{vertical-align:none;width:120px;height:77px;border:none !important;margin:0 !important;padding:0}
@@ -612,15 +613,18 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 
 .aol-photo-gallery-fullscreen .aol-photo-gallery .gallery {width:auto;}
 
-.aol-photo-gallery .bottom-right {
+.aol-photo-gallery.nineup .bottom-right {
     float: none;
     height: 470px;
     width: 470px;
     z-index: 999;
+    position: absolute;
+    margin-top: -470px;
+    left: 70px;
 }
 
 
-.aol-photo-gallery .top-right li:first-child, .aol-photo-gallery .bottom-right li:first-child {
+.aol-photo-gallery.nineup .bottom-right li:first-child {
 		background:url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -502px; 
 		color:#fff; 
 		width: 132px; 
@@ -633,7 +637,6 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 		left:150px;
 		top:210px;
 		letter-spacing: 2px;}
-
 
 
 .aol-photo-gallery-fullscreen .aol-photo-gallery li.back-button {
@@ -667,6 +670,18 @@ aol-photo-gallery-fullscreen .gallery{background-color:#000;border:none;padding:
 .thumbnail-carousel-controls {display:none;}
 
 .thumbnail-container-inner {margin: 0 auto;}
+
+/*regular gallery */
+.aol-photo-gallery .bottom-right li:first-child {
+		background:url("http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png") no-repeat 0 -502px; 
+		color:#fff; 
+		width: 132px; 
+		height:22px; 
+		font: 600 13px/1 'proxima-nova',arial,helvetica,sans-serif; 
+		text-shadow:none;
+		text-transform:uppercase;
+		padding: 12px 0 0 45px;
+		letter-spacing: 2px;}
 
 
 /* newsletter signup */
