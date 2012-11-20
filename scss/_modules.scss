@@ -773,3 +773,13 @@ text-align: center;
 .blogger-network h2 {color: #FFFFFF;font: 36px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;margin: 0 0 10px 0;}
 .blogger-network p {font: 600 16px/1.3 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif; margin-bottom: 20px;}
 /* end join curator network */
+
+/* sponsored post */
+#sponsored-post {margin-top:20px;}
+#sponsored-post .list-item{border:none;}
+#sponsored-post .list-item .entry-title{width:auto;font:26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;}
+#sponsored-post .list-item .entry-title:hover{color:#000;}
+#sponsored-post .list-item img{border:1px solid #CCC;padding:4px;}
+#sponsored-post .list-item .entry-title span{font:600 11px/1 'proxima-nova-n4','proxima-nova',arial,helvetica,sans-serif;color:#CCC;letter-spacing:2px;padding-left:12px;}
+/* end sponsored post css */
+
