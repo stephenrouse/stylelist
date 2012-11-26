@@ -337,9 +337,11 @@
 }
 .inspiration-view-now {
 	@include transition(background 0.5s 0); 
-	box-sizing: border-box;
+	@include box-sizing(border-box);
 	display: none; 
-	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+
 }
 .inspiration-tile:hover {
 	a {
@@ -358,11 +360,25 @@
 		background: #66CCFF; 
 		bottom: 0; 
 		display: block; 
-		font-size: 12px; 
+		font-size: 12px;
 		padding: 10px 15px; 
 		position: absolute; 
 		text-transform: uppercase; 
-		width: 100%;}
+		width: 100%;
+	}
+	.icons-gallery {
+		display: inline-block;
+		height: 22px;
+		width: 30px;
+	}
+	.icons-glasses {
+	}
+	.icons-list {
+		display: inline-block;
+		height: 22px;
+		margin-bottom: -7px;
+		width: 22px;
+	}
 }
 
 
