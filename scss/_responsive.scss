@@ -49,6 +49,7 @@
 	.featured-items-primary .featured-items {width:100%;}
 
 	.module-list-block .list-items .list-item{width:42%;}
+	#primary .videos .list-item img{@include imgsize(200px,200px)}
 }
 
 
@@ -131,7 +132,8 @@
 	#dl-cat.dl .dl-image img{width:430px;height:250px;}
         .videos .icon-video{left:30%;}
 	.module-list-block .list-items .list-item{width:42%;}
-        .inspiration-list {width: 460px;}
+        #primary .videos .list-item img{@include imgsize(200px,200px)}
+	.inspiration-list {width: 460px;}
 	.inspiration-tile {
 		float: none;
 	}
