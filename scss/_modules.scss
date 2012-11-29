@@ -1,4 +1,4 @@
-$sprite: "http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media/sprite.png";
+ul{ list-style-type:none;}
 /* top nav */
 .main-nav {
 	overflow:hidden;
@@ -45,7 +45,6 @@ $sprite: "http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media
 	width:620px;
 	margin:0px;
 	overflow:hidden;
-	float:left;
 	.entry-title{
 		margin:20px 20px 5px 20px;
 		text-align:center;
@@ -58,7 +57,6 @@ $sprite: "http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media
 	ul li{
 		width:378px;
 		height:auto;
-		list-style-type:none;
 		z-index:10;
 	}
 }
@@ -356,7 +354,6 @@ $sprite: "http://www.blogsmithmedia.com/dev-oct.sandbox.main.stylelist.com/media
  	@include box-shadow(#000 0 0 20px 0);
  	font-family: $bodyfont;	
  	float: left; 
-	list-style-type: none; 
 	position: relative; 
 	.icons-sl-circle {
 		height: 22px; 
@@ -615,7 +612,7 @@ span.nineup-index {background-color: rgba(255,255,255,.8);
 
 /* mini nineup mini non carousel module */
 #nineup-mini {float:left; width:640px; margin-left:-20px;}
-#nineup-mini-lists {list-style-type:none; padding-left:0;}
+#nineup-mini-lists {padding-left:0;}
 
 #nineup-mini-lists .aol-photo-gallery .thumbnails li {height: 95px!important; width: 95px !important; padding: 4px 0 0 4px;}
 
@@ -809,7 +806,7 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 			letter-spacing:normal;
 			line-height:normal;
 		}
-		.list-items {
+		> .list-items {
 			float:left;
 			border:1px solid #FF6666;
 			padding:2px 0;
@@ -817,12 +814,11 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 			h2 {
 				font:26px/1 'alternate-gothic-no-2-d-n4','alternate-gothic-no-2-d',sans-serif;
 			}
-			.list-item {
+			> .list-item {
 				background-color:#F2F1F1;
 				margin:2px 3px;
 				float:left;
 				width:98%;
-				list-style-type:none;
 				h2 {
 					width:55%;
 					float:left;
@@ -854,7 +850,7 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 					}
 				}
 			}
-			.list-item:nth-child(2n+1) {
+			> .list-item:nth-child(2n+1) {
 				h2 {
 					float:right;
 				}
@@ -970,17 +966,19 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 }
 
 .module-list-block{
-	.list-items {
+	> .list-items {
+		display:inline-block;
     		margin:0;
     		padding:0;
-		float:left;
-    		.list-item {
-                	float:left;
-			list-style-type:none;
+    		> .list-item {
+			display:inline-block;
+        	        *display:block;
+	                zoom:1;
+                	vertical-align:bottom;
 			border:1px solid #66CCFF;
 			margin:0 20px 20px 0;	
 			text-transform:uppercase;
-                        width:48%;
+                        width:47.5%;
 			.entry-title {
 				font:400 24px/1 "alternate-gothic-no-2-d-n4","alternate-gothic-no-2-d",sans-serif; 
 				color:#000;
@@ -991,7 +989,7 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 				overflow:hidden;
 			}
 		}
-                .list-item:nth-child(2n) {
+                > .list-item:nth-child(2n) {
 			margin-right:0;
 		}
   	}
@@ -1000,21 +998,20 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 .pagination{
 	float:left;
 	width:100%;
-	ul{
+	> ul{
 		float:left;
 		width:98%;
 		padding:0;
-		li{
-			list-style-type:none;
+		> li{
 			margin:0px;
-			a{
+			> a{
 				width:30px;
 				height:30px;
 				font:600 32px/2 $bodyfont;
 				color:#66CCFF;
 			}
 		}
-		li.next{
+		> li.next{
 			float:right;
 			div{
 				background:transparent url($sprite) no-repeat scroll -103px -310px;
@@ -1023,7 +1020,7 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 				height:48px;
 			}
 		}
-		li.prev{
+		> li.prev{
 			float:left;
 			div{
 				background: transparent url($sprite) no-repeat scroll -74px -310px;
@@ -1075,23 +1072,22 @@ input#join {color: #fff; padding: 9px 12px; border-radius: 0 7px 7px 0; border:1
 .just-for-you .list-items .list-item .entry-title:hover{color:#66CCFF;}
 .curator-network .list-items .list-item .entry-title{font-size:26px;}
 .videos .list-items{ 
-	.list-item{
+	> .list-item{
 		border:none;
 		.entry-title{
 			font-size:26px;
 			line-height:26px;
-			min-height:52px;
 		}
 	}
-	.list-item:nth-child(2n){
+	> .list-item:nth-child(2n){
 		margin-right:0;
 	}
 }
 
 .sponsored-post{
 	margin-top:20px;
-	.list-items{
-		.list-item{
+	> .list-items{
+		> .list-item{
 			border:none;
 			.entry-title{
 				font-size:26px;
